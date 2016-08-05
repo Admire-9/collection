@@ -1,0 +1,89 @@
+.all-item {
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    /*background-color: #7D7D7D*/
+    margin: 20px 0;
+}
+.item-every {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 5px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.header-detail {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.header-detail .header-pic {
+    display: block;
+    float: left;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #6683B8;
+}
+.header-detail .user-name {
+    width: 50%;
+    padding-left: 17px;
+    height: auto;
+    overflow: hidden;
+}
+.header-detail .user-name h4 {
+    padding-bottom: 4px;
+}
+.header-detail .user-name p {
+    font-size: 13px;
+    line-height: 15px;
+}
+.shots-follow {
+    width: 150px;
+    font-size: 13px;
+}
+.shots-follow ul {
+    display: block;
+}
+.shots-follow li {
+    float: left;
+    width:30px;
+    padding:0 15px;
+}
+.shots-follow .num {
+    font-weight: bold;
+}
+.shots-follow .shu {
+    border-right: 1px solid #666666;
+}
+
+.item-pic {
+    padding-right: 30px;
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.item-pic .pic-every {
+    display: block;
+    float: left;
+    width: 116px;
+    height: 80px;
+    padding: 3px;
+    background-color: #fff;
+    margin: 3px 5px 0 0;
+}
+/*.item-pic a{*/
+    /*display: block;*/
+    /*width: 122px;*/
+    /*height: 86px;*/
+    /*overflow: hidden;*/
+    /*padding: 10px;*/
+/*}*/
+.item-pic img {
+    width: 115px;
+    height: 80px;
+    display: block;
+}

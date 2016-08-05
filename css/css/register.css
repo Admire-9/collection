@@ -1,0 +1,114 @@
+@charset "utf-8";
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #F1F1F1;
+  overflow: hidden;
+}
+.mainNav {
+  width: 980px;
+  height: auto;
+  display: block;
+  padding-left: 15px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.mainNav li {
+  float: left;
+}
+.mainNav a {
+  color: #000;
+  display: block;
+  padding: 14px 15px;
+}
+.mainNav a:hover {
+  color: red;
+}
+.log {
+  width: 100%;
+  height: 86px;
+  position: relative;
+  background-color: #00A0D8;
+}
+.log .image {
+  width: 980px;
+  position: absolute;
+  left: 50%;
+  margin-left: -490px;
+  z-index: 9999;
+}
+.log img {
+  width: 980px;
+  height: 106px;
+}
+.line {
+  width: 980px;
+  height: 47px;
+  border-bottom: 2px solid #DFDFDF;
+  margin: 0 auto;
+  position: relative;
+}
+.line img {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: -23px;
+}
+.register {
+  width: 980px;
+  height: auto;
+  overflow: auto;
+  margin: 40px auto 0 auto;
+}
+.register input {
+  display: block;
+  width: 415px;
+  height: 40px;
+  padding: 0 12px;
+  margin: 0 auto 40px auto;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.register .phone {
+  width: 415px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.register .phone input {
+  width: 317px;
+  height: 40px;
+  float: right;
+}
+.register .phone select {
+  width: 91px;
+  height: 40px;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+}
+.register .agreeBL {
+  width: 415px;
+  margin: 0 auto;
+  height: auto;
+  overflow: auto;
+}
+.register .agreeBL input {
+  width: 12px;
+  height: 12px;
+  float: left;
+}
+.register .agreeBL p {
+  float: left;
+}
+.register .reBtn {
+  background-color: #F9F9F9;
+  border: 1px solid #F9F9F9;
+  color: #AAAAAA;
+  font-size: 16px;
+}

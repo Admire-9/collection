@@ -1,0 +1,171 @@
+.bc-color {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(123,187,94,.8);
+    position: absolute;
+    z-index: -1;
+}
+.left-content {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    padding: 10px 0;
+}
+.left-content h1 {
+    margin-bottom: 5px;
+}
+.left-content h2 {
+    margin-bottom: 13px;
+    color: #fff;
+}
+.left-content h2 span {
+    color: rgba(255,255,255,.6);
+}
+.job-detail {
+    width: 92%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 5px #ccc;
+    -moz-box-shadow: 1px 1px 5px #ccc;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.job-detail h6 {
+    padding:5px;
+    color: #cccccc;
+}
+.every-job {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 12px 5px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.every-job:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+.every-job span {
+    display: block;
+}
+.every-job span:first-child {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.every-job span:first-child h4 {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.every-job span:first-child p ,
+.every-job span:last-child {
+    color: #AAAAAA;
+}
+.every-job span:last-child  {
+    float: right;
+    margin: 10px 100px 0 0;
+}
+.right-content {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding:10px 40px;
+    font-size: 14px;
+}
+.right-content .post-a-job {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 1px #666;
+    -moz-box-shadow: 1px 1px 1px #666;
+    box-shadow: 1px 1px 1px #666;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.right-content .post-a-job:hover {
+    background-color: rgb(255,255,255);
+}
+.right-content .post-a-job h4 {
+    margin: 3px 0;
+}
+.right-content .post-a-job span {
+    color: #cccccc;
+}
+.right-content .twritter {
+    display: block;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: rgba(255,255,255,.9);
+    font-size: 15px;
+}
+.right-content .twritter:hover {
+    color: rgba(255,255,255,1);
+}
+.right-search-soon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px #666;
+    -moz-box-shadow: 0 0 5px #666;
+    box-shadow: 0 0 5px #666;
+    color: #666666;
+    background-color: #222;
+}
+.right-search-soon span{
+    display: block;
+    margin: 8px 0;
+    color: #cccccc;
+}
+.right-search-soon input[name="search-content"] {
+    width: 90%;
+    height: 30px;
+    margin: 5px 0 10px;
+    padding: 2px 0 0 20px;
+    border-radius: 5px;
+    background: #fff url("css/images/search.png") no-repeat 5px 50%;
+}
+.right-search-soon input[name="search-btn"] {
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #666;
+}
+.right-content p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 20px 0;
+    display: block;
+    line-height: 30px;
+}
+.questions {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 30px 20px 0;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+.questions h4 {
+    padding: 0;
+    margin: 10px 0;
+}
